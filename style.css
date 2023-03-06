@@ -1,3 +1,10 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Outfit:wght@700&family=Poppins:wght@300&display=swap');
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -14,44 +21,60 @@ body{
     position: absolute;
    
     
+   
+   
+   
+
+   
+   
+    
 }
 
 .card{
-    height: 550px;
-    width: 400px;
+    height: 420px;
+    width: 270px;
     border: 2px solid white;
-    background-color: white;
-    border-radius: 22px;
-    box-shadow: 1px 1px 0.015rem rgb(180, 177, 177);
-  
-
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+ 
 }
 
-.image{
-    height: 340px;
-    width: 360px;
-    background-color: white;
-    margin-top: 4%;
-    margin-left: 4.8%;
-    border-radius: 13px;
-}
-
-.ima{
-    height: 340px;
-    width: 360px;
-    border-radius: 13px;
-}
-
-h1{
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: 6.8%;
-    font-family: sans-serif;
+.img{
+    width: 245px;
+    height: 260px;
+    margin: 10px 10px;
+    background: url(chisom.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .text1{
-    font-size: 17px;
-    font-weight: 400;
-    color: gray;
-    font-family: sans-serif;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Outfit';
+    
+    
+   
+      
+   
 }
+
+.text2{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    margin-top: 11px;
+    font-family: 'sans-serif';
+    font-weight: 400;
+    
+    
+ 
+   
+ 
+   
+}
+
+
